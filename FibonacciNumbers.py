@@ -1,8 +1,8 @@
 def fibo_cal(nterms):
-   
+
     list_fibo = []
-   
-    n1, n2 = 0, 1
+
+    n1, n2 = 1, 1
     count = 0
     while count < nterms:
        list_fibo.append(n1)
@@ -12,7 +12,6 @@ def fibo_cal(nterms):
        n2 = nth
        count += 1
     return(list_fibo)
-    
 
-print(fibo_cal(11))
 
+print(fibo_cal(10))
